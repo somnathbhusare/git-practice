@@ -1,0 +1,17 @@
+# configure name or Email to git 
+git config --global user.email "somnathbhusare94@gmail.com"
+
+# configure origin
+git remote add origin https://github.com/somnathbhusare/git-practice.git
+
+# here origin = https://github.com/somnathbhusare/git-practice.git
+
+# how to push file from local to remote Repository
+
+git init 
+git clone <url>                # remote rpepo URL
+git add . 
+git status 
+git commit -m "message"
+git push origin main 
+git logs                        # know the history and who made commits 
