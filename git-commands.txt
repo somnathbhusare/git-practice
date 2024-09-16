@@ -26,3 +26,9 @@ git reset <commit id >     # Default option keep changes in working area
 git reset --hard <commit_id>  #permenantly remove chnages 
 git reset --soft <commit_id>  #put chnages in staging area 
 git reset --mixed <commit_id> #keep chnages in working area 
+
+# hoe to undo chnages to remote repo or undo  public commit
+# git revert commands 
+git revert = it remove the changes and create new commit 
+git revert <commit_id> 
+git push origin main  -- done now we did undo on remote repo 
