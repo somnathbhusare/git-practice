@@ -14,4 +14,10 @@ git add .
 git status 
 git commit -m "message"
 git push origin main 
-git logs                        # know the history and who made commits 
+git log   after click on q for coming out of log screen                     # know the history and who made commits 
+
+
+# git reset VS git revert 
+
+git reset commands 
+
