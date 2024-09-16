@@ -14,10 +14,15 @@ git add .
 git status 
 git commit -m "message"
 git push origin main 
-git log   after click on q for coming out of log screen                     # know the history and who made commits 
-
+git log     --   after click on q for coming out of log screen    # know the history and who made commits 
+git log --oneline 
 
 # git reset VS git revert 
 
-git reset commands 
+git reset commands -- it remove commit from history 
 
+git reset <commit id >     # Default option keep changes in working area 
+
+git reset --hard <commit_id>  #permenantly remove chnages 
+git reset --soft <commit_id>  #put chnages in staging area 
+git reset --mixed <commit_id> #keep chnages in working area 
